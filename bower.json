@@ -1,0 +1,22 @@
+{
+  "name": "ngFacets",
+  "version": "0.0.1",
+  "main": "dist/facet.js",
+  "ignore": [
+    "source",
+    "spec",
+    ".bowerrc",
+    ".editorconfig",
+    ".gitignore",
+    ".jshintrc",
+    "bower.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "angular": "~1.2.0",
+    "bootstrap": "~3.0.0"
+  },
+  "devDependencies": {
+  }
+}
