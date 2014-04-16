@@ -1,4 +1,4 @@
-ngFacet
+mlFacet
 =======
 
 AngularJS facet directive
