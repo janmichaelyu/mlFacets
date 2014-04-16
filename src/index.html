@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html lang="en" ng-app='mlFacets'>
+  <head>
+    <meta charset="utf-8">
+
+    <title>mlFacets</title>
+    <meta name="description" content="mlFacets example">
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="ml-facets.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body ng-controller="FacetController">
+    <h1>mlFacets</h1>
+
+    <ml-facets facet-list="model.facets" selected="model.selected"
+          select="selectFacet(facet, value)" clear="clearFacet(facet, value)"></ml-facets>
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+    <script src="ml-facets.js"></script>
+  </body>
+</html>
