@@ -13,7 +13,7 @@
       '<div class="facet" ng-repeat="(name, facet) in facets">\n' +
         '<h3>{{ name }}</h3>\n' +
         '<div ng-repeat="value in facet.facetValues">\n' +
-          '<a ng-click="select({facet: name, value: value.name})">{{value.name}} ({{value.count}})</a>\n' +
+          '<a ng-click="select({facet: name, value: value.name})">{{value.name}}</a>\n' +
         '</div>\n' +
       '</div>\n' +
     '</div> ';
